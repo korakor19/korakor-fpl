@@ -125,6 +125,116 @@ def main():
             indent=2
         )
 
+
+    # Compact, readable snapshot for ChatGPT.
+    # All picks are from the most recently FINISHED gameweek,
+    # not necessarily the manager's current pre-deadline squad.
+    player_by_id = {p["id"]: p for p in bootstrap["elements"]}
+    club_by_id = {t["id"]: t["short_name"] for t in bootstrap["teams"]}
+    summary = {
+        "updated_at": report["updated_at"],
+        "data_note": (
+            "Squads/picks reflect the latest finished gameweek only. "
+            "Unconfirmed pre-deadline transfers, free transfers, "
+            "bank balance and chip selection are not available here."
+        ),
+        "completed_gameweek": gameweek,
+        "next_gameweek": {
+            "id": upcoming.get("id"),
+            "deadline_time": upcoming.get("deadline_time"),
+            "name": upcoming.get("name")
+        } if upcoming else None,
+        "league": {
+            "id": LEAGUE_ID,
+            "standings": [
+                {
+                    "entry": x.get("entry"),
+                    "entry_name": x.get("entry_name"),
+                    "player_name": x.get("player_name"),
+                    "rank": x.get("rank"),
+                    "total": x.get("total"),
+                    "event_total": x.get("event_total")
+                }
+                for x in league.get("standings", {}).get("results", [])
+            ]
+        },
+        "managers": {},
+        "upcoming_fixtures": [],
+        "players": {}
+    }
+
+    relevant_ids = set()
+    for name, manager in report["managers"].items():
+        picks_data = manager.get("picks", {})
+        picks = []
+        for pick in picks_data.get("picks", []):
+            pid = pick["element"]
+            relevant_ids.add(pid)
+            p = player_by_id.get(pid, {})
+            picks.append({
+                "id": pid,
+                "name": p.get("web_name"),
+                "club": club_by_id.get(p.get("team")),
+                "position": p.get("element_type"),
+                "squad_position": pick.get("position"),
+                "multiplier": pick.get("multiplier"),
+                "captain": pick.get("is_captain"),
+                "vice_captain": pick.get("is_vice_captain")
+            })
+        profile = manager["profile"]
+        history = manager["history"]
+        summary["managers"][name] = {
+            "team_id": manager["team_id"],
+            "overall_points": profile.get("summary_overall_points"),
+            "overall_rank": profile.get("summary_overall_rank"),
+            "last_finished_week_picks": picks,
+            "last_finished_week_entry_history": picks_data.get("entry_history"),
+            "chips_used": history.get("chips", []),
+            "recent_transfers": manager["transfers"][:10],
+            "recent_history": history.get("current", [])[-3:]
+        }
+        for transfer in manager["transfers"][:10]:
+            relevant_ids.update(
+                [transfer.get("element_in"), transfer.get("element_out")]
+            )
+
+    next_id = upcoming.get("id") if upcoming else None
+    if next_id:
+        for fixture in fixtures:
+            if fixture.get("event") in (next_id, next_id + 1):
+                summary["upcoming_fixtures"].append({
+                    "gameweek": fixture.get("event"),
+                    "home": club_by_id.get(fixture.get("team_h")),
+                    "away": club_by_id.get(fixture.get("team_a")),
+                    "kickoff_time": fixture.get("kickoff_time"),
+                    "finished": fixture.get("finished")
+                })
+
+    for pid in sorted(relevant_ids - {None}):
+        p = player_by_id.get(pid)
+        if not p:
+            continue
+        summary["players"][str(pid)] = {
+            "name": p.get("web_name"),
+            "club": club_by_id.get(p.get("team")),
+            "position": p.get("element_type"),
+            "now_cost": p.get("now_cost"),
+            "form": p.get("form"),
+            "total_points": p.get("total_points"),
+            "minutes": p.get("minutes"),
+            "status": p.get("status"),
+            "chance_of_playing_next_round": p.get("chance_of_playing_next_round"),
+            "news": p.get("news"),
+            "selected_by_percent": p.get("selected_by_percent")
+        }
+
+    with open(
+        "data/fpl_summary.json", "w", encoding="utf-8"
+    ) as file:
+        json.dump(summary, file, ensure_ascii=False, indent=2)
+
+    print("SUCCESS: Compact FPL summary collected!", flush=True)
+
     print("SUCCESS: FPL data collected!")
 
 
