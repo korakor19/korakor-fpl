@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T09:30:55.639106+00:00",
+  "updated_at": "2026-11-21T09:42:30.089249+00:00",
   "data_note": "Squads/picks reflect the latest finished gameweek only. Unconfirmed pre-deadline transfers, free transfers, bank balance and chip selection are not available here.",
   "completed_gameweek": 10,
   "next_gameweek": {
@@ -2149,7 +2149,7 @@
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "25.5"
+      "selected_by_percent": "25.6"
     },
     "40": {
       "name": "Rogers",
@@ -2201,7 +2201,7 @@
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "25.7"
+      "selected_by_percent": "25.8"
     },
     "87": {
       "name": "Ajer",
@@ -2318,7 +2318,7 @@
       "status": "i",
       "chance_of_playing_next_round": 0,
       "news": "Thigh injury - Unknown return date",
-      "selected_by_percent": "29.1"
+      "selected_by_percent": "29.0"
     },
     "166": {
       "name": "N.Jackson",
@@ -2565,7 +2565,7 @@
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "8.1"
+      "selected_by_percent": "8.0"
     },
     "388": {
       "name": "Guéhi",
@@ -2656,7 +2656,7 @@
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "78.8"
+      "selected_by_percent": "78.9"
     },
     "418": {
       "name": "Maguire",
@@ -2708,7 +2708,7 @@
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "18.1"
+      "selected_by_percent": "18.0"
     },
     "428": {
       "name": "Cunha",
@@ -2825,7 +2825,7 @@
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "9.0"
+      "selected_by_percent": "8.9"
     },
     "496": {
       "name": "Kinsky",
@@ -2877,7 +2877,7 @@
       "status": "i",
       "chance_of_playing_next_round": 0,
       "news": "Muscular injury - Unknown return date",
-      "selected_by_percent": "4.3"
+      "selected_by_percent": "4.2"
     },
     "557": {
       "name": "Tzolis",
