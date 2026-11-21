@@ -1,0 +1,40 @@
+name: FPL Daily Price Watch
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fpl-data-writes
+  cancel-in-progress: false
+
+jobs:
+  track-prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record prices
+        run: python track_fpl_prices.py
+      - name: Commit price history
+        run: |
+          git config user.name "FPL Data Bot"
+          git config user.email "fpl-bot@users.noreply.github.com"
+          git add data/fpl_price_history.json data/fpl_price_watch.json
+          if git diff --cached --quiet; then
+            echo "No price updates"
+          else
+            git commit -m "Update daily FPL price history"
+            git push
+          fi
