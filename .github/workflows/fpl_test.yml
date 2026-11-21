@@ -1,0 +1,26 @@
+
+name: FPL Connection Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-connection:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test FPL API
+        run: |
+          for endpoint in \
+            "bootstrap-static/" \
+            "entry/5556298/" \
+            "leagues-classic/1188591/standings/"
+          do
+            echo "Testing: $endpoint"
+
+            curl --silent --show-error \
+              --max-time 30 \
+              --output /dev/null \
+              --write-out "HTTP Status: %{http_code}\n" \
+              "https://fantasy.premierleague.com/api/$endpoint"
+          done
