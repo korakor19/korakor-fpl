@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T09:20:26.996206+00:00",
+  "updated_at": "2026-11-21T09:30:55.639106+00:00",
   "data_note": "Squads/picks reflect the latest finished gameweek only. Unconfirmed pre-deadline transfers, free transfers, bank balance and chip selection are not available here.",
   "completed_gameweek": 10,
   "next_gameweek": {
@@ -1320,7 +1320,7 @@
     "titalyano": {
       "team_id": 8868593,
       "overall_points": 549,
-      "overall_rank": 5514203,
+      "overall_rank": 5514204,
       "last_finished_week_picks": [
         {
           "id": 1,
@@ -1614,7 +1614,7 @@
     "SV Cheesebaden": {
       "team_id": 5870944,
       "overall_points": 544,
-      "overall_rank": 5794553,
+      "overall_rank": 5794554,
       "last_finished_week_picks": [
         {
           "id": 250,
