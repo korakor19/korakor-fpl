@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fpl-data-writes
+  cancel-in-progress: false
+
 jobs:
   collect-fpl-data:
     runs-on: ubuntu-latest
