@@ -233,6 +233,80 @@ def main():
     ) as file:
         json.dump(summary, file, ensure_ascii=False, indent=2)
 
+
+    # Compact full player market for transfer scouting.
+    # Monetary values are in tenths of GBP millions (e.g. 75 = 7.5m).
+    # FPL expected-goal/assist metrics are historical, not future xPts.
+    pool = {
+        "updated_at": report["updated_at"],
+        "source": "Official FPL bootstrap-static and fixtures APIs",
+        "completed_gameweek": gameweek,
+        "next_gameweek": summary["next_gameweek"],
+        "price_unit": "0.1 million GBP",
+        "metric_note": (
+            "expected_goals and expected_assists are historical FPL metrics; "
+            "they are NOT predicted points. now_cost is the market buy price, "
+            "not a manager-specific selling price."
+        ),
+        "clubs": [
+            {"id": t["id"], "name": t["name"], "short_name": t["short_name"]}
+            for t in bootstrap["teams"]
+        ],
+        "positions": [
+            {"id": p["id"], "name": p["singular_name_short"]}
+            for p in bootstrap["element_types"]
+        ],
+        "players": [],
+        "fixtures": []
+    }
+    for p in bootstrap["elements"]:
+        pool["players"].append({
+            "id": p["id"],
+            "name": p.get("web_name"),
+            "full_name": " ".join(
+                x for x in (p.get("first_name"), p.get("second_name")) if x
+            ),
+            "team_id": p.get("team"),
+            "position_id": p.get("element_type"),
+            "now_cost": p.get("now_cost"),
+            "form": p.get("form"),
+            "total_points": p.get("total_points"),
+            "points_per_game": p.get("points_per_game"),
+            "minutes": p.get("minutes"),
+            "starts": p.get("starts"),
+            "goals_scored": p.get("goals_scored"),
+            "assists": p.get("assists"),
+            "clean_sheets": p.get("clean_sheets"),
+            "expected_goals": p.get("expected_goals"),
+            "expected_assists": p.get("expected_assists"),
+            "expected_goal_involvements": p.get("expected_goal_involvements"),
+            "expected_goals_per_90": p.get("expected_goals_per_90"),
+            "expected_assists_per_90": p.get("expected_assists_per_90"),
+            "selected_by_percent": p.get("selected_by_percent"),
+            "status": p.get("status"),
+            "chance_of_playing_next_round": p.get("chance_of_playing_next_round"),
+            "news": p.get("news")
+        })
+    if next_id:
+        for fixture in fixtures:
+            event = fixture.get("event")
+            if event is not None and next_id <= event <= next_id + 5:
+                pool["fixtures"].append({
+                    "gameweek": event,
+                    "home_team_id": fixture.get("team_h"),
+                    "away_team_id": fixture.get("team_a"),
+                    "kickoff_time": fixture.get("kickoff_time"),
+                    "finished": fixture.get("finished")
+                })
+    with open(
+        "data/fpl_player_pool.json", "w", encoding="utf-8"
+    ) as file:
+        json.dump(pool, file, ensure_ascii=False, separators=(",", ":"))
+    print(
+        f"SUCCESS: Full player pool saved ({len(pool['players'])} players)!",
+        flush=True
+    )
+
     print("SUCCESS: Compact FPL summary collected!", flush=True)
 
     print("SUCCESS: FPL data collected!")
