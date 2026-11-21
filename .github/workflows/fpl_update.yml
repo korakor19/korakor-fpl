@@ -30,11 +30,14 @@ jobs:
       - name: Collect FPL data
         run: python collect_fpl.py
 
+      - name: Collect world top-50 FPL managers
+        run: python collect_fpl_elite.py
+
       - name: Save updated data
         run: |
           git config user.name "FPL Data Bot"
           git config user.email "fpl-bot@users.noreply.github.com"
-          git add data/fpl_data.json data/fpl_summary.json data/fpl_player_pool.json
+          git add data/fpl_data.json data/fpl_summary.json data/fpl_player_pool.json data/fpl_elite_managers.json data/fpl_elite_history.json
 
           if git diff --cached --quiet; then
             echo "No changes to save"
