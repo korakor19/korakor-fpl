@@ -1,7 +1,7 @@
 
 import json
 import time
-import urllib.request
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -20,24 +20,35 @@ TEAMS = {
 
 def fetch(endpoint):
     url = BASE_URL + endpoint
-    print(f"Downloading: {url}")
+    print(f"Downloading: {url}", flush=True)
 
     for attempt in range(3):
         try:
-            request = urllib.request.Request(
-                url,
-                headers={
-                    "User-Agent": "Mozilla/5.0",
-                    "Accept": "application/json"
-                }
+            result = subprocess.run(
+                [
+                    "curl",
+                    "--silent",
+                    "--show-error",
+                    "--fail",
+                    "--max-time", "60",
+                    url
+                ],
+                capture_output=True,
+                text=True,
+                check=True
             )
-            with urllib.request.urlopen(
-                request, timeout=60
-            ) as response:
-                return json.load(response)
-        except Exception:
+
+            data = json.loads(result.stdout)
+            print("OK", flush=True)
+            time.sleep(1)
+            return data
+
+        except Exception as error:
+            print(f"Attempt {attempt + 1}: {error}")
+
             if attempt == 2:
                 raise
+
             time.sleep(5)
 
 
@@ -46,10 +57,12 @@ def main():
     fixtures = fetch("fixtures/")
 
     events = bootstrap["events"]
+
     completed = [
         e["id"] for e in events
         if e.get("finished")
     ]
+
     gameweek = max(completed, default=0)
 
     upcoming = next(
