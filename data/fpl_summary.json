@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-21T09:46:10.545278+00:00",
+  "updated_at": "2026-11-27T12:57:18.836447+00:00",
   "data_note": "Squads/picks reflect the latest finished gameweek only. Unconfirmed pre-deadline transfers, free transfers, bank balance and chip selection are not available here.",
-  "completed_gameweek": 10,
+  "completed_gameweek": 11,
   "next_gameweek": {
-    "id": 11,
-    "deadline_time": "2026-11-21T11:00:00Z",
-    "name": "Gameweek 11"
+    "id": 12,
+    "deadline_time": "2026-11-27T18:30:00Z",
+    "name": "Gameweek 12"
   },
   "league": {
     "id": 1188591,
@@ -15,56 +15,56 @@
         "entry_name": "kermitspor",
         "player_name": "Kerem Diramca",
         "rank": 1,
-        "total": 668,
-        "event_total": 67
+        "total": 699,
+        "event_total": 31
       },
       {
         "entry": 5556298,
         "entry_name": "KoraKor FC",
         "player_name": "Koray Kocer",
         "rank": 2,
-        "total": 644,
-        "event_total": 67
+        "total": 684,
+        "event_total": 40
       },
       {
         "entry": 5478165,
         "entry_name": "Al Habibi FC",
         "player_name": "Emir Dervisbey",
         "rank": 3,
-        "total": 640,
-        "event_total": 59
+        "total": 674,
+        "event_total": 34
       },
       {
         "entry": 6240087,
         "entry_name": "Munich JK",
         "player_name": "Sertan Taskin",
         "rank": 4,
-        "total": 593,
-        "event_total": 51
+        "total": 614,
+        "event_total": 21
       },
       {
         "entry": 8868593,
         "entry_name": "titalyano",
         "player_name": "Ahmet Dereli",
         "rank": 5,
-        "total": 549,
-        "event_total": 47
+        "total": 599,
+        "event_total": 50
       },
       {
         "entry": 5870944,
         "entry_name": "SV Cheesebaden",
         "player_name": "omer demiray",
         "rank": 6,
-        "total": 544,
-        "event_total": 58
+        "total": 573,
+        "event_total": 29
       }
     ]
   },
   "managers": {
     "KoraKor FC": {
       "team_id": 5556298,
-      "overall_points": 644,
-      "overall_rank": 1054793,
+      "overall_points": 684,
+      "overall_rank": 956833,
       "last_finished_week_picks": [
         {
           "id": 109,
@@ -97,9 +97,9 @@
           "vice_captain": false
         },
         {
-          "id": 31,
-          "name": "Konsa",
-          "club": "ARS",
+          "id": 112,
+          "name": "Van Hecke",
+          "club": "TOT",
           "position": 2,
           "squad_position": 4,
           "multiplier": 1,
@@ -114,7 +114,7 @@
           "squad_position": 5,
           "multiplier": 1,
           "captain": false,
-          "vice_captain": true
+          "vice_captain": false
         },
         {
           "id": 68,
@@ -147,21 +147,11 @@
           "vice_captain": false
         },
         {
-          "id": 367,
-          "name": "Gakpo",
-          "club": "LIV",
-          "position": 3,
-          "squad_position": 9,
-          "multiplier": 1,
-          "captain": false,
-          "vice_captain": false
-        },
-        {
           "id": 411,
           "name": "Haaland",
           "club": "MCI",
           "position": 4,
-          "squad_position": 10,
+          "squad_position": 9,
           "multiplier": 2,
           "captain": true,
           "vice_captain": false
@@ -170,6 +160,16 @@
           "id": 379,
           "name": "Isak",
           "club": "LIV",
+          "position": 4,
+          "squad_position": 10,
+          "multiplier": 1,
+          "captain": false,
+          "vice_captain": true
+        },
+        {
+          "id": 166,
+          "name": "N.Jackson",
+          "club": "AVL",
           "position": 4,
           "squad_position": 11,
           "multiplier": 1,
@@ -187,19 +187,19 @@
           "vice_captain": false
         },
         {
-          "id": 166,
-          "name": "N.Jackson",
-          "club": "AVL",
-          "position": 4,
+          "id": 367,
+          "name": "Gakpo",
+          "club": "LIV",
+          "position": 3,
           "squad_position": 13,
           "multiplier": 0,
           "captain": false,
           "vice_captain": false
         },
         {
-          "id": 112,
-          "name": "Van Hecke",
-          "club": "TOT",
+          "id": 31,
+          "name": "Konsa",
+          "club": "ARS",
           "position": 2,
           "squad_position": 14,
           "multiplier": 0,
@@ -218,19 +218,19 @@
         }
       ],
       "last_finished_week_entry_history": {
-        "event": 10,
-        "points": 67,
-        "total_points": 644,
-        "rank": 2012445,
-        "rank_sort": 2034817,
-        "overall_rank": 1054832,
-        "percentile_rank": 20,
-        "overall_rank_percentage": "9",
+        "event": 11,
+        "points": 40,
+        "total_points": 684,
+        "rank": 2996298,
+        "rank_sort": 3110054,
+        "overall_rank": 956839,
+        "percentile_rank": 30,
+        "overall_rank_percentage": "8",
         "bank": 2,
-        "value": 1029,
-        "event_transfers": 2,
-        "event_transfers_cost": 4,
-        "points_on_bench": 20
+        "value": 1038,
+        "event_transfers": 0,
+        "event_transfers_cost": 0,
+        "points_on_bench": 3
       },
       "chips_used": [
         {
@@ -338,21 +338,6 @@
       ],
       "recent_history": [
         {
-          "event": 8,
-          "points": 67,
-          "total_points": 534,
-          "rank": 452793,
-          "rank_sort": 457779,
-          "overall_rank": 774312,
-          "percentile_rank": 5,
-          "overall_rank_percentage": "7",
-          "bank": 0,
-          "value": 1022,
-          "event_transfers": 2,
-          "event_transfers_cost": 0,
-          "points_on_bench": 7
-        },
-        {
           "event": 9,
           "points": 47,
           "total_points": 581,
@@ -381,13 +366,28 @@
           "event_transfers": 2,
           "event_transfers_cost": 4,
           "points_on_bench": 20
+        },
+        {
+          "event": 11,
+          "points": 40,
+          "total_points": 684,
+          "rank": 2996298,
+          "rank_sort": 3110054,
+          "overall_rank": 956839,
+          "percentile_rank": 30,
+          "overall_rank_percentage": "8",
+          "bank": 2,
+          "value": 1038,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 3
         }
       ]
     },
     "kermitspor": {
       "team_id": 1713117,
-      "overall_points": 668,
-      "overall_rank": 453161,
+      "overall_points": 699,
+      "overall_rank": 570718,
       "last_finished_week_picks": [
         {
           "id": 109,
@@ -541,19 +541,19 @@
         }
       ],
       "last_finished_week_entry_history": {
-        "event": 10,
-        "points": 67,
-        "total_points": 668,
-        "rank": 1827336,
-        "rank_sort": 1844375,
-        "overall_rank": 453178,
-        "percentile_rank": 20,
-        "overall_rank_percentage": "4",
+        "event": 11,
+        "points": 31,
+        "total_points": 699,
+        "rank": 7349299,
+        "rank_sort": 7386007,
+        "overall_rank": 570723,
+        "percentile_rank": 70,
+        "overall_rank_percentage": "5",
         "bank": 23,
-        "value": 1031,
+        "value": 1036,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 7
+        "points_on_bench": 12
       },
       "chips_used": [
         {
@@ -656,21 +656,6 @@
       ],
       "recent_history": [
         {
-          "event": 8,
-          "points": 28,
-          "total_points": 527,
-          "rank": 10406726,
-          "rank_sort": 10415211,
-          "overall_rank": 993116,
-          "percentile_rank": 95,
-          "overall_rank_percentage": "9",
-          "bank": 18,
-          "value": 1026,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 1
-        },
-        {
           "event": 9,
           "points": 74,
           "total_points": 601,
@@ -699,13 +684,28 @@
           "event_transfers": 0,
           "event_transfers_cost": 0,
           "points_on_bench": 7
+        },
+        {
+          "event": 11,
+          "points": 31,
+          "total_points": 699,
+          "rank": 7349299,
+          "rank_sort": 7386007,
+          "overall_rank": 570723,
+          "percentile_rank": 70,
+          "overall_rank_percentage": "5",
+          "bank": 23,
+          "value": 1036,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 12
         }
       ]
     },
     "Al Habibi FC": {
       "team_id": 5478165,
-      "overall_points": 640,
-      "overall_rank": 1182158,
+      "overall_points": 674,
+      "overall_rank": 1268069,
       "last_finished_week_picks": [
         {
           "id": 1,
@@ -718,9 +718,9 @@
           "vice_captain": false
         },
         {
-          "id": 330,
-          "name": "Bogle",
-          "club": "LEE",
+          "id": 204,
+          "name": "Mitchell",
+          "club": "CRY",
           "position": 2,
           "squad_position": 2,
           "multiplier": 1,
@@ -808,9 +808,9 @@
           "vice_captain": false
         },
         {
-          "id": 346,
-          "name": "Calvert-Lewin",
-          "club": "LEE",
+          "id": 166,
+          "name": "N.Jackson",
+          "club": "AVL",
           "position": 4,
           "squad_position": 11,
           "multiplier": 1,
@@ -828,9 +828,9 @@
           "vice_captain": false
         },
         {
-          "id": 259,
-          "name": "Diop",
-          "club": "IPS",
+          "id": 330,
+          "name": "Bogle",
+          "club": "LEE",
           "position": 2,
           "squad_position": 13,
           "multiplier": 0,
@@ -838,9 +838,9 @@
           "vice_captain": false
         },
         {
-          "id": 204,
-          "name": "Mitchell",
-          "club": "CRY",
+          "id": 259,
+          "name": "Diop",
+          "club": "IPS",
           "position": 2,
           "squad_position": 14,
           "multiplier": 0,
@@ -859,22 +859,31 @@
         }
       ],
       "last_finished_week_entry_history": {
-        "event": 10,
-        "points": 59,
-        "total_points": 640,
-        "rank": 4329358,
-        "rank_sort": 4386681,
-        "overall_rank": 1182198,
-        "percentile_rank": 40,
+        "event": 11,
+        "points": 34,
+        "total_points": 674,
+        "rank": 6157098,
+        "rank_sort": 6236252,
+        "overall_rank": 1268080,
+        "percentile_rank": 55,
         "overall_rank_percentage": "11",
-        "bank": 37,
-        "value": 1026,
+        "bank": 26,
+        "value": 1031,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 8
+        "points_on_bench": 6
       },
       "chips_used": [],
       "recent_transfers": [
+        {
+          "element_in": 166,
+          "element_in_cost": 71,
+          "element_out": 346,
+          "element_out_cost": 60,
+          "entry": 5478165,
+          "event": 11,
+          "time": "2026-11-19T17:31:48.121959Z"
+        },
         {
           "element_in": 79,
           "element_in_cost": 64,
@@ -955,33 +964,9 @@
           "entry": 5478165,
           "event": 4,
           "time": "2026-09-11T02:53:33.247691Z"
-        },
-        {
-          "element_in": 165,
-          "element_in_cost": 77,
-          "element_out": 552,
-          "element_out_cost": 59,
-          "entry": 5478165,
-          "event": 4,
-          "time": "2026-09-11T02:53:33.241478Z"
         }
       ],
       "recent_history": [
-        {
-          "event": 8,
-          "points": 37,
-          "total_points": 540,
-          "rank": 8540877,
-          "rank_sort": 8583270,
-          "overall_rank": 599674,
-          "percentile_rank": 80,
-          "overall_rank_percentage": "5",
-          "bank": 14,
-          "value": 1022,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 2
-        },
         {
           "event": 9,
           "points": 45,
@@ -1011,13 +996,28 @@
           "event_transfers": 1,
           "event_transfers_cost": 0,
           "points_on_bench": 8
+        },
+        {
+          "event": 11,
+          "points": 34,
+          "total_points": 674,
+          "rank": 6157098,
+          "rank_sort": 6236252,
+          "overall_rank": 1268080,
+          "percentile_rank": 55,
+          "overall_rank_percentage": "11",
+          "bank": 26,
+          "value": 1031,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 6
         }
       ]
     },
     "Munich JK": {
       "team_id": 6240087,
-      "overall_points": 593,
-      "overall_rank": 3186144,
+      "overall_points": 614,
+      "overall_rank": 3947650,
       "last_finished_week_picks": [
         {
           "id": 1,
@@ -1060,9 +1060,9 @@
           "vice_captain": false
         },
         {
-          "id": 388,
-          "name": "Guéhi",
-          "club": "MCI",
+          "id": 330,
+          "name": "Bogle",
+          "club": "LEE",
           "position": 2,
           "squad_position": 5,
           "multiplier": 1,
@@ -1085,8 +1085,8 @@
           "club": "CHE",
           "position": 3,
           "squad_position": 7,
-          "multiplier": 2,
-          "captain": true,
+          "multiplier": 1,
+          "captain": false,
           "vice_captain": false
         },
         {
@@ -1095,18 +1095,8 @@
           "club": "MCI",
           "position": 3,
           "squad_position": 8,
-          "multiplier": 1,
-          "captain": false,
-          "vice_captain": false
-        },
-        {
-          "id": 427,
-          "name": "Mbeumo",
-          "club": "MUN",
-          "position": 3,
-          "squad_position": 9,
-          "multiplier": 1,
-          "captain": false,
+          "multiplier": 2,
+          "captain": true,
           "vice_captain": false
         },
         {
@@ -1114,7 +1104,7 @@
           "name": "Kostoulas",
           "club": "BHA",
           "position": 4,
-          "squad_position": 10,
+          "squad_position": 9,
           "multiplier": 1,
           "captain": false,
           "vice_captain": false
@@ -1124,10 +1114,20 @@
           "name": "Isak",
           "club": "LIV",
           "position": 4,
-          "squad_position": 11,
+          "squad_position": 10,
           "multiplier": 1,
           "captain": false,
           "vice_captain": true
+        },
+        {
+          "id": 316,
+          "name": "Emersonn",
+          "club": "IPS",
+          "position": 4,
+          "squad_position": 11,
+          "multiplier": 1,
+          "captain": false,
+          "vice_captain": false
         },
         {
           "id": 567,
@@ -1150,19 +1150,19 @@
           "vice_captain": false
         },
         {
-          "id": 316,
-          "name": "Emersonn",
-          "club": "IPS",
-          "position": 4,
+          "id": 427,
+          "name": "Mbeumo",
+          "club": "MUN",
+          "position": 3,
           "squad_position": 14,
           "multiplier": 0,
           "captain": false,
           "vice_captain": false
         },
         {
-          "id": 330,
-          "name": "Bogle",
-          "club": "LEE",
+          "id": 388,
+          "name": "Guéhi",
+          "club": "MCI",
           "position": 2,
           "squad_position": 15,
           "multiplier": 0,
@@ -1171,19 +1171,19 @@
         }
       ],
       "last_finished_week_entry_history": {
-        "event": 10,
-        "points": 51,
-        "total_points": 593,
-        "rank": 7132700,
-        "rank_sort": 7149052,
-        "overall_rank": 3186268,
-        "percentile_rank": 65,
-        "overall_rank_percentage": "28",
+        "event": 11,
+        "points": 21,
+        "total_points": 614,
+        "rank": 10638753,
+        "rank_sort": 10683831,
+        "overall_rank": 3947715,
+        "percentile_rank": 95,
+        "overall_rank_percentage": "35",
         "bank": 1,
         "value": 1005,
-        "event_transfers": 2,
+        "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 16
+        "points_on_bench": 6
       },
       "chips_used": [],
       "recent_transfers": [
@@ -1271,21 +1271,6 @@
       ],
       "recent_history": [
         {
-          "event": 8,
-          "points": 38,
-          "total_points": 514,
-          "rank": 8286145,
-          "rank_sort": 8309116,
-          "overall_rank": 1564828,
-          "percentile_rank": 75,
-          "overall_rank_percentage": "14",
-          "bank": 21,
-          "value": 1009,
-          "event_transfers": 2,
-          "event_transfers_cost": 0,
-          "points_on_bench": 11
-        },
-        {
           "event": 9,
           "points": 28,
           "total_points": 542,
@@ -1314,18 +1299,33 @@
           "event_transfers": 2,
           "event_transfers_cost": 0,
           "points_on_bench": 16
+        },
+        {
+          "event": 11,
+          "points": 21,
+          "total_points": 614,
+          "rank": 10638753,
+          "rank_sort": 10683831,
+          "overall_rank": 3947715,
+          "percentile_rank": 95,
+          "overall_rank_percentage": "35",
+          "bank": 1,
+          "value": 1005,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 6
         }
       ]
     },
     "titalyano": {
       "team_id": 8868593,
-      "overall_points": 549,
-      "overall_rank": 5514204,
+      "overall_points": 599,
+      "overall_rank": 4739534,
       "last_finished_week_picks": [
         {
-          "id": 1,
-          "name": "Raya",
-          "club": "ARS",
+          "id": 496,
+          "name": "Kinsky",
+          "club": "TOT",
           "position": 1,
           "squad_position": 1,
           "multiplier": 1,
@@ -1343,9 +1343,9 @@
           "vice_captain": false
         },
         {
-          "id": 387,
-          "name": "O'Reilly",
-          "club": "MCI",
+          "id": 31,
+          "name": "Konsa",
+          "club": "ARS",
           "position": 2,
           "squad_position": 3,
           "multiplier": 1,
@@ -1353,9 +1353,9 @@
           "vice_captain": false
         },
         {
-          "id": 229,
-          "name": "Tarkowski",
-          "club": "EVE",
+          "id": 112,
+          "name": "Van Hecke",
+          "club": "TOT",
           "position": 2,
           "squad_position": 4,
           "multiplier": 1,
@@ -1393,9 +1393,9 @@
           "vice_captain": false
         },
         {
-          "id": 627,
-          "name": "Barcola",
-          "club": "LIV",
+          "id": 154,
+          "name": "Palmer",
+          "club": "CHE",
           "position": 3,
           "squad_position": 8,
           "multiplier": 1,
@@ -1403,29 +1403,29 @@
           "vice_captain": false
         },
         {
-          "id": 398,
-          "name": "Foden",
-          "club": "MCI",
+          "id": 366,
+          "name": "Wirtz",
+          "club": "LIV",
           "position": 3,
           "squad_position": 9,
-          "multiplier": 2,
-          "captain": true,
-          "vice_captain": false
-        },
-        {
-          "id": 401,
-          "name": "Marmoush",
-          "club": "TOT",
-          "position": 4,
-          "squad_position": 10,
           "multiplier": 1,
           "captain": false,
           "vice_captain": false
         },
         {
-          "id": 464,
-          "name": "Wissa",
-          "club": "NEW",
+          "id": 166,
+          "name": "N.Jackson",
+          "club": "AVL",
+          "position": 4,
+          "squad_position": 10,
+          "multiplier": 2,
+          "captain": true,
+          "vice_captain": false
+        },
+        {
+          "id": 379,
+          "name": "Isak",
+          "club": "LIV",
           "position": 4,
           "squad_position": 11,
           "multiplier": 1,
@@ -1433,9 +1433,9 @@
           "vice_captain": false
         },
         {
-          "id": 496,
-          "name": "Kinsky",
-          "club": "TOT",
+          "id": 1,
+          "name": "Raya",
+          "club": "ARS",
           "position": 1,
           "squad_position": 12,
           "multiplier": 0,
@@ -1443,21 +1443,11 @@
           "vice_captain": false
         },
         {
-          "id": 346,
-          "name": "Calvert-Lewin",
-          "club": "LEE",
+          "id": 79,
+          "name": "Evanilson",
+          "club": "BOU",
           "position": 4,
           "squad_position": 13,
-          "multiplier": 0,
-          "captain": false,
-          "vice_captain": false
-        },
-        {
-          "id": 423,
-          "name": "Shaw",
-          "club": "MUN",
-          "position": 2,
-          "squad_position": 14,
           "multiplier": 0,
           "captain": false,
           "vice_captain": false
@@ -1467,6 +1457,16 @@
           "name": "Calafiori",
           "club": "ARS",
           "position": 2,
+          "squad_position": 14,
+          "multiplier": 0,
+          "captain": false,
+          "vice_captain": false
+        },
+        {
+          "id": 579,
+          "name": "Araujo",
+          "club": "LIV",
+          "position": 2,
           "squad_position": 15,
           "multiplier": 0,
           "captain": false,
@@ -1474,22 +1474,100 @@
         }
       ],
       "last_finished_week_entry_history": {
-        "event": 10,
-        "points": 47,
-        "total_points": 549,
-        "rank": 8064228,
-        "rank_sort": 8210814,
-        "overall_rank": 5514517,
-        "percentile_rank": 75,
-        "overall_rank_percentage": "49",
-        "bank": 70,
+        "event": 11,
+        "points": 50,
+        "total_points": 599,
+        "rank": 672288,
+        "rank_sort": 727335,
+        "overall_rank": 4739619,
+        "percentile_rank": 10,
+        "overall_rank_percentage": "42",
+        "bank": 17,
         "value": 1018,
         "event_transfers": 0,
         "event_transfers_cost": 0,
-        "points_on_bench": 10
+        "points_on_bench": 14
       },
-      "chips_used": [],
+      "chips_used": [
+        {
+          "name": "wildcard",
+          "time": "2026-11-20T16:11:31.731854Z",
+          "event": 11
+        }
+      ],
       "recent_transfers": [
+        {
+          "element_in": 154,
+          "element_in_cost": 98,
+          "element_out": 627,
+          "element_out_cost": 80,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.180022Z"
+        },
+        {
+          "element_in": 79,
+          "element_in_cost": 65,
+          "element_out": 346,
+          "element_out_cost": 60,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179920Z"
+        },
+        {
+          "element_in": 379,
+          "element_in_cost": 93,
+          "element_out": 464,
+          "element_out_cost": 59,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179817Z"
+        },
+        {
+          "element_in": 166,
+          "element_in_cost": 72,
+          "element_out": 401,
+          "element_out_cost": 70,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179713Z"
+        },
+        {
+          "element_in": 366,
+          "element_in_cost": 72,
+          "element_out": 398,
+          "element_out_cost": 68,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179614Z"
+        },
+        {
+          "element_in": 579,
+          "element_in_cost": 55,
+          "element_out": 423,
+          "element_out_cost": 42,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179499Z"
+        },
+        {
+          "element_in": 112,
+          "element_in_cost": 51,
+          "element_out": 229,
+          "element_out_cost": 61,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179324Z"
+        },
+        {
+          "element_in": 31,
+          "element_in_cost": 49,
+          "element_out": 387,
+          "element_out_cost": 62,
+          "entry": 8868593,
+          "event": 11,
+          "time": "2026-11-20T16:11:39.179071Z"
+        },
         {
           "element_in": 401,
           "element_in_cost": 70,
@@ -1507,78 +1585,9 @@
           "entry": 8868593,
           "event": 8,
           "time": "2026-10-23T16:18:17.854469Z"
-        },
-        {
-          "element_in": 115,
-          "element_in_cost": 50,
-          "element_out": 498,
-          "element_out_cost": 58,
-          "entry": 8868593,
-          "event": 7,
-          "time": "2026-10-11T18:32:26.679024Z"
-        },
-        {
-          "element_in": 12,
-          "element_in_cost": 96,
-          "element_out": 367,
-          "element_out_cost": 71,
-          "entry": 8868593,
-          "event": 6,
-          "time": "2026-10-10T05:44:02.585388Z"
-        },
-        {
-          "element_in": 124,
-          "element_in_cost": 59,
-          "element_out": 557,
-          "element_out_cost": 63,
-          "entry": 8868593,
-          "event": 6,
-          "time": "2026-10-10T05:44:02.580233Z"
-        },
-        {
-          "element_in": 627,
-          "element_in_cost": 80,
-          "element_out": 426,
-          "element_out_cost": 120,
-          "entry": 8868593,
-          "event": 4,
-          "time": "2026-09-11T19:54:23.815479Z"
-        },
-        {
-          "element_in": 399,
-          "element_in_cost": 76,
-          "element_out": 397,
-          "element_out_cost": 85,
-          "entry": 8868593,
-          "event": 3,
-          "time": "2026-08-30T14:37:54.383831Z"
-        },
-        {
-          "element_in": 464,
-          "element_in_cost": 60,
-          "element_out": 552,
-          "element_out_cost": 60,
-          "entry": 8868593,
-          "event": 3,
-          "time": "2026-08-30T14:37:54.363553Z"
         }
       ],
       "recent_history": [
-        {
-          "event": 8,
-          "points": 23,
-          "total_points": 463,
-          "rank": 10885124,
-          "rank_sort": 10892912,
-          "overall_rank": 4625632,
-          "percentile_rank": 100,
-          "overall_rank_percentage": "42",
-          "bank": 64,
-          "value": 1022,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 9
-        },
         {
           "event": 9,
           "points": 39,
@@ -1608,18 +1617,33 @@
           "event_transfers": 0,
           "event_transfers_cost": 0,
           "points_on_bench": 10
+        },
+        {
+          "event": 11,
+          "points": 50,
+          "total_points": 599,
+          "rank": 672288,
+          "rank_sort": 727335,
+          "overall_rank": 4739619,
+          "percentile_rank": 10,
+          "overall_rank_percentage": "42",
+          "bank": 17,
+          "value": 1018,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 14
         }
       ]
     },
     "SV Cheesebaden": {
       "team_id": 5870944,
-      "overall_points": 544,
-      "overall_rank": 5794554,
+      "overall_points": 573,
+      "overall_rank": 6104437,
       "last_finished_week_picks": [
         {
-          "id": 250,
-          "name": "Leno",
-          "club": "FUL",
+          "id": 572,
+          "name": "Tzolakis",
+          "club": "HUL",
           "position": 1,
           "squad_position": 1,
           "multiplier": 1,
@@ -1697,10 +1721,10 @@
           "vice_captain": false
         },
         {
-          "id": 138,
-          "name": "Kostoulas",
-          "club": "BHA",
-          "position": 4,
+          "id": 45,
+          "name": "McGinn",
+          "club": "AVL",
+          "position": 3,
           "squad_position": 9,
           "multiplier": 1,
           "captain": false,
@@ -1712,8 +1736,8 @@
           "club": "AVL",
           "position": 4,
           "squad_position": 10,
-          "multiplier": 1,
-          "captain": false,
+          "multiplier": 2,
+          "captain": true,
           "vice_captain": false
         },
         {
@@ -1722,16 +1746,26 @@
           "club": "MCI",
           "position": 4,
           "squad_position": 11,
-          "multiplier": 2,
-          "captain": true,
+          "multiplier": 1,
+          "captain": false,
           "vice_captain": false
         },
         {
-          "id": 572,
-          "name": "Tzolakis",
-          "club": "HUL",
+          "id": 250,
+          "name": "Leno",
+          "club": "FUL",
           "position": 1,
           "squad_position": 12,
+          "multiplier": 0,
+          "captain": false,
+          "vice_captain": false
+        },
+        {
+          "id": 138,
+          "name": "Kostoulas",
+          "club": "BHA",
+          "position": 4,
+          "squad_position": 13,
           "multiplier": 0,
           "captain": false,
           "vice_captain": false
@@ -1741,7 +1775,7 @@
           "name": "O'Reilly",
           "club": "MCI",
           "position": 2,
-          "squad_position": 13,
+          "squad_position": 14,
           "multiplier": 0,
           "captain": false,
           "vice_captain": false
@@ -1751,16 +1785,6 @@
           "name": "Bogle",
           "club": "LEE",
           "position": 2,
-          "squad_position": 14,
-          "multiplier": 0,
-          "captain": false,
-          "vice_captain": false
-        },
-        {
-          "id": 286,
-          "name": "Belloumi",
-          "club": "HUL",
-          "position": 3,
           "squad_position": 15,
           "multiplier": 0,
           "captain": false,
@@ -1768,19 +1792,19 @@
         }
       ],
       "last_finished_week_entry_history": {
-        "event": 10,
-        "points": 58,
-        "total_points": 544,
-        "rank": 4679082,
-        "rank_sort": 4738368,
-        "overall_rank": 5794906,
-        "percentile_rank": 45,
-        "overall_rank_percentage": "52",
-        "bank": 2,
-        "value": 1024,
+        "event": 11,
+        "points": 29,
+        "total_points": 573,
+        "rank": 8547665,
+        "rank_sort": 8605370,
+        "overall_rank": 6104574,
+        "percentile_rank": 80,
+        "overall_rank_percentage": "54",
+        "bank": 0,
+        "value": 1028,
         "event_transfers": 1,
         "event_transfers_cost": 0,
-        "points_on_bench": 14
+        "points_on_bench": 9
       },
       "chips_used": [
         {
@@ -1790,6 +1814,15 @@
         }
       ],
       "recent_transfers": [
+        {
+          "element_in": 45,
+          "element_in_cost": 54,
+          "element_out": 286,
+          "element_out_cost": 52,
+          "entry": 5870944,
+          "event": 11,
+          "time": "2026-11-17T11:52:29.239290Z"
+        },
         {
           "element_in": 138,
           "element_in_cost": 58,
@@ -1870,33 +1903,9 @@
           "entry": 5870944,
           "event": 7,
           "time": "2026-10-11T20:15:40.287013Z"
-        },
-        {
-          "element_in": 154,
-          "element_in_cost": 97,
-          "element_out": 94,
-          "element_out_cost": 61,
-          "entry": 5870944,
-          "event": 7,
-          "time": "2026-10-11T20:15:40.286841Z"
         }
       ],
       "recent_history": [
-        {
-          "event": 8,
-          "points": 42,
-          "total_points": 425,
-          "rank": 6551396,
-          "rank_sort": 6656327,
-          "overall_rank": 6929728,
-          "percentile_rank": 60,
-          "overall_rank_percentage": "62",
-          "bank": 2,
-          "value": 1021,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 8
-        },
         {
           "event": 9,
           "points": 61,
@@ -1926,81 +1935,26 @@
           "event_transfers": 1,
           "event_transfers_cost": 0,
           "points_on_bench": 14
+        },
+        {
+          "event": 11,
+          "points": 29,
+          "total_points": 573,
+          "rank": 8547665,
+          "rank_sort": 8605370,
+          "overall_rank": 6104574,
+          "percentile_rank": 80,
+          "overall_rank_percentage": "54",
+          "bank": 0,
+          "value": 1028,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 9
         }
       ]
     }
   },
   "upcoming_fixtures": [
-    {
-      "gameweek": 11,
-      "home": "MCI",
-      "away": "FUL",
-      "kickoff_time": "2026-11-21T12:30:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "AVL",
-      "away": "SUN",
-      "kickoff_time": "2026-11-21T15:00:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "BOU",
-      "away": "NFO",
-      "kickoff_time": "2026-11-21T15:00:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "CHE",
-      "away": "LEE",
-      "kickoff_time": "2026-11-21T15:00:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "COV",
-      "away": "CRY",
-      "kickoff_time": "2026-11-21T15:00:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "TOT",
-      "away": "IPS",
-      "kickoff_time": "2026-11-21T15:00:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "NEW",
-      "away": "ARS",
-      "kickoff_time": "2026-11-21T17:30:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "HUL",
-      "away": "BHA",
-      "kickoff_time": "2026-11-22T14:00:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "LIV",
-      "away": "MUN",
-      "kickoff_time": "2026-11-22T16:30:00Z",
-      "finished": false
-    },
-    {
-      "gameweek": 11,
-      "home": "BRE",
-      "away": "EVE",
-      "kickoff_time": "2026-11-23T20:00:00Z",
-      "finished": false
-    },
     {
       "gameweek": 12,
       "home": "NFO",
@@ -2070,6 +2024,76 @@
       "away": "MCI",
       "kickoff_time": "2026-11-29T16:30:00Z",
       "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "COV",
+      "away": "IPS",
+      "kickoff_time": "2026-12-01T20:00:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "CHE",
+      "away": "CRY",
+      "kickoff_time": "2026-12-02T19:30:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "HUL",
+      "away": "NFO",
+      "kickoff_time": "2026-12-02T19:30:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "LIV",
+      "away": "SUN",
+      "kickoff_time": "2026-12-02T19:30:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "MCI",
+      "away": "LEE",
+      "kickoff_time": "2026-12-02T19:30:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "AVL",
+      "away": "EVE",
+      "kickoff_time": "2026-12-02T20:15:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "BOU",
+      "away": "BHA",
+      "kickoff_time": "2026-12-02T20:15:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "BRE",
+      "away": "ARS",
+      "kickoff_time": "2026-12-02T20:15:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "NEW",
+      "away": "MUN",
+      "kickoff_time": "2026-12-02T20:15:00Z",
+      "finished": false
+    },
+    {
+      "gameweek": 13,
+      "home": "TOT",
+      "away": "FUL",
+      "kickoff_time": "2026-12-03T20:00:00Z",
+      "finished": false
     }
   ],
   "players": {
@@ -2077,27 +2101,27 @@
       "name": "Raya",
       "club": "ARS",
       "position": 1,
-      "now_cost": 63,
-      "form": "6.0",
-      "total_points": 60,
-      "minutes": 900,
-      "status": "a",
-      "chance_of_playing_next_round": null,
-      "news": "",
-      "selected_by_percent": "47.7"
+      "now_cost": 62,
+      "form": "4.0",
+      "total_points": 61,
+      "minutes": 969,
+      "status": "d",
+      "chance_of_playing_next_round": 50,
+      "news": "Shoulder injury - 50% chance of playing",
+      "selected_by_percent": "43.3"
     },
     "4": {
       "name": "Gabriel",
       "club": "ARS",
       "position": 2,
       "now_cost": 81,
-      "form": "10.3",
-      "total_points": 66,
-      "minutes": 900,
+      "form": "5.0",
+      "total_points": 67,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "26.6"
+      "selected_by_percent": "26.9"
     },
     "8": {
       "name": "Calafiori",
@@ -2105,12 +2129,12 @@
       "position": 2,
       "now_cost": 59,
       "form": "4.3",
-      "total_points": 57,
-      "minutes": 767,
+      "total_points": 58,
+      "minutes": 857,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "48.7"
+      "selected_by_percent": "47.6"
     },
     "12": {
       "name": "Saka",
@@ -2123,16 +2147,16 @@
       "status": "i",
       "chance_of_playing_next_round": 0,
       "news": "Thigh injury - Expected back 20 Dec",
-      "selected_by_percent": "5.2"
+      "selected_by_percent": "5.0"
     },
     "15": {
       "name": "Ødegaard",
       "club": "ARS",
       "position": 3,
       "now_cost": 67,
-      "form": "5.7",
-      "total_points": 50,
-      "minutes": 823,
+      "form": "6.3",
+      "total_points": 55,
+      "minutes": 913,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
@@ -2143,26 +2167,39 @@
       "club": "ARS",
       "position": 2,
       "now_cost": 49,
-      "form": "10.7",
-      "total_points": 57,
-      "minutes": 731,
+      "form": "6.3",
+      "total_points": 58,
+      "minutes": 821,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "25.6"
+      "selected_by_percent": "24.9"
     },
     "40": {
       "name": "Rogers",
       "club": "CHE",
       "position": 3,
-      "now_cost": 82,
-      "form": "4.0",
-      "total_points": 52,
-      "minutes": 880,
+      "now_cost": 83,
+      "form": "5.3",
+      "total_points": 57,
+      "minutes": 970,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
       "selected_by_percent": "54.5"
+    },
+    "45": {
+      "name": "McGinn",
+      "club": "AVL",
+      "position": 3,
+      "now_cost": 55,
+      "form": "3.7",
+      "total_points": 45,
+      "minutes": 820,
+      "status": "a",
+      "chance_of_playing_next_round": null,
+      "news": "",
+      "selected_by_percent": "4.9"
     },
     "53": {
       "name": "Manzambi",
@@ -2170,47 +2207,47 @@
       "position": 3,
       "now_cost": 62,
       "form": "3.3",
-      "total_points": 40,
-      "minutes": 461,
+      "total_points": 41,
+      "minutes": 520,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "8.6"
+      "selected_by_percent": "8.7"
     },
     "68": {
       "name": "Tavernier",
       "club": "BOU",
       "position": 3,
-      "now_cost": 67,
-      "form": "5.3",
-      "total_points": 58,
-      "minutes": 840,
+      "now_cost": 68,
+      "form": "4.7",
+      "total_points": 66,
+      "minutes": 930,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "32.4"
+      "selected_by_percent": "34.2"
     },
     "79": {
       "name": "Evanilson",
       "club": "BOU",
       "position": 4,
-      "now_cost": 65,
+      "now_cost": 66,
       "form": "8.0",
-      "total_points": 61,
-      "minutes": 837,
+      "total_points": 67,
+      "minutes": 927,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "25.8"
+      "selected_by_percent": "28.2"
     },
     "87": {
       "name": "Ajer",
       "club": "BRE",
       "position": 2,
       "now_cost": 45,
-      "form": "4.0",
-      "total_points": 42,
-      "minutes": 900,
+      "form": "5.3",
+      "total_points": 48,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
@@ -2221,13 +2258,13 @@
       "club": "BRE",
       "position": 3,
       "now_cost": 61,
-      "form": "2.0",
-      "total_points": 46,
-      "minutes": 777,
+      "form": "1.7",
+      "total_points": 47,
+      "minutes": 801,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "12.3"
+      "selected_by_percent": "10.9"
     },
     "109": {
       "name": "Verbruggen",
@@ -2235,77 +2272,77 @@
       "position": 1,
       "now_cost": 47,
       "form": "6.3",
-      "total_points": 57,
-      "minutes": 900,
+      "total_points": 59,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "24.2"
+      "selected_by_percent": "25.3"
     },
     "112": {
       "name": "Van Hecke",
       "club": "TOT",
       "position": 2,
-      "now_cost": 51,
-      "form": "8.7",
-      "total_points": 57,
-      "minutes": 900,
+      "now_cost": 52,
+      "form": "8.3",
+      "total_points": 63,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "17.7"
+      "selected_by_percent": "20.9"
     },
     "115": {
       "name": "De Cuyper",
       "club": "BHA",
       "position": 2,
-      "now_cost": 55,
+      "now_cost": 56,
       "form": "5.3",
-      "total_points": 75,
-      "minutes": 822,
+      "total_points": 76,
+      "minutes": 912,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "49.5"
+      "selected_by_percent": "50.8"
     },
     "124": {
       "name": "Groß",
       "club": "BHA",
       "position": 3,
       "now_cost": 63,
-      "form": "4.0",
-      "total_points": 70,
-      "minutes": 880,
+      "form": "5.3",
+      "total_points": 74,
+      "minutes": 970,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "49.2"
+      "selected_by_percent": "49.8"
     },
     "138": {
       "name": "Kostoulas",
       "club": "BHA",
       "position": 4,
-      "now_cost": 58,
-      "form": "2.0",
-      "total_points": 47,
-      "minutes": 724,
+      "now_cost": 57,
+      "form": "1.7",
+      "total_points": 48,
+      "minutes": 747,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "9.4"
+      "selected_by_percent": "8.2"
     },
     "154": {
       "name": "Palmer",
       "club": "CHE",
       "position": 3,
       "now_cost": 98,
-      "form": "3.0",
-      "total_points": 47,
-      "minutes": 878,
+      "form": "4.0",
+      "total_points": 49,
+      "minutes": 968,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "28.1"
+      "selected_by_percent": "26.2"
     },
     "165": {
       "name": "João Pedro",
@@ -2318,33 +2355,33 @@
       "status": "i",
       "chance_of_playing_next_round": 0,
       "news": "Thigh injury - Unknown return date",
-      "selected_by_percent": "29.0"
+      "selected_by_percent": "26.8"
     },
     "166": {
       "name": "N.Jackson",
       "club": "AVL",
       "position": 4,
-      "now_cost": 72,
-      "form": "11.0",
-      "total_points": 54,
-      "minutes": 722,
+      "now_cost": 73,
+      "form": "7.3",
+      "total_points": 56,
+      "minutes": 794,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "35.2"
+      "selected_by_percent": "37.1"
     },
     "175": {
       "name": "van Ewijk",
       "club": "COV",
       "position": 2,
       "now_cost": 39,
-      "form": "2.3",
-      "total_points": 20,
-      "minutes": 810,
+      "form": "2.0",
+      "total_points": 21,
+      "minutes": 900,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "6.9"
+      "selected_by_percent": "6.6"
     },
     "204": {
       "name": "Mitchell",
@@ -2352,12 +2389,12 @@
       "position": 2,
       "now_cost": 44,
       "form": "1.7",
-      "total_points": 33,
-      "minutes": 869,
+      "total_points": 34,
+      "minutes": 959,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "4.5"
+      "selected_by_percent": "4.4"
     },
     "212": {
       "name": "Hughes",
@@ -2370,85 +2407,85 @@
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "5.5"
+      "selected_by_percent": "5.3"
     },
     "229": {
       "name": "Tarkowski",
       "club": "EVE",
       "position": 2,
       "now_cost": 62,
-      "form": "3.3",
-      "total_points": 56,
-      "minutes": 900,
-      "status": "a",
-      "chance_of_playing_next_round": null,
-      "news": "",
-      "selected_by_percent": "18.9"
+      "form": "1.3",
+      "total_points": 52,
+      "minutes": 939,
+      "status": "s",
+      "chance_of_playing_next_round": 0,
+      "news": "Suspended until 13 Dec",
+      "selected_by_percent": "16.1"
     },
     "237": {
       "name": "Ndiaye",
       "club": "MCI",
       "position": 3,
-      "now_cost": 58,
-      "form": "3.0",
-      "total_points": 37,
-      "minutes": 766,
+      "now_cost": 57,
+      "form": "2.0",
+      "total_points": 39,
+      "minutes": 843,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "5.3"
+      "selected_by_percent": "4.9"
     },
     "250": {
       "name": "Leno",
       "club": "FUL",
       "position": 1,
       "now_cost": 45,
-      "form": "4.3",
-      "total_points": 39,
-      "minutes": 900,
+      "form": "2.3",
+      "total_points": 41,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "4.3"
+      "selected_by_percent": "4.2"
     },
     "259": {
       "name": "Diop",
       "club": "IPS",
       "position": 2,
       "now_cost": 39,
-      "form": "1.3",
+      "form": "1.0",
       "total_points": 21,
-      "minutes": 900,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "9.6"
+      "selected_by_percent": "9.3"
     },
     "277": {
       "name": "Egan",
       "club": "HUL",
       "position": 2,
-      "now_cost": 41,
-      "form": "2.3",
+      "now_cost": 40,
+      "form": "1.0",
       "total_points": 38,
       "minutes": 842,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "6.4"
+      "selected_by_percent": "6.1"
     },
     "286": {
       "name": "Belloumi",
       "club": "HUL",
       "position": 3,
-      "now_cost": 53,
-      "form": "3.0",
-      "total_points": 48,
-      "minutes": 685,
+      "now_cost": 52,
+      "form": "4.0",
+      "total_points": 55,
+      "minutes": 775,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "8.9"
+      "selected_by_percent": "9.0"
     },
     "316": {
       "name": "Emersonn",
@@ -2456,25 +2493,25 @@
       "position": 4,
       "now_cost": 54,
       "form": "1.3",
-      "total_points": 34,
-      "minutes": 652,
+      "total_points": 35,
+      "minutes": 668,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "2.7"
+      "selected_by_percent": "2.6"
     },
     "330": {
       "name": "Bogle",
       "club": "LEE",
       "position": 2,
       "now_cost": 48,
-      "form": "4.3",
-      "total_points": 58,
-      "minutes": 810,
+      "form": "4.0",
+      "total_points": 62,
+      "minutes": 895,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "11.3"
+      "selected_by_percent": "12.5"
     },
     "335": {
       "name": "Stach",
@@ -2482,34 +2519,47 @@
       "position": 3,
       "now_cost": 60,
       "form": "0.7",
-      "total_points": 33,
-      "minutes": 676,
+      "total_points": 34,
+      "minutes": 680,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "1.6"
+      "selected_by_percent": "1.5"
     },
     "346": {
       "name": "Calvert-Lewin",
       "club": "LEE",
       "position": 4,
       "now_cost": 60,
-      "form": "2.0",
-      "total_points": 39,
-      "minutes": 863,
+      "form": "4.3",
+      "total_points": 48,
+      "minutes": 953,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "16.4"
+      "selected_by_percent": "18.9"
     },
     "356": {
       "name": "Virgil",
       "club": "LIV",
       "position": 2,
       "now_cost": 64,
-      "form": "4.7",
-      "total_points": 43,
-      "minutes": 900,
+      "form": "3.7",
+      "total_points": 49,
+      "minutes": 990,
+      "status": "a",
+      "chance_of_playing_next_round": 100,
+      "news": "",
+      "selected_by_percent": "14.9"
+    },
+    "366": {
+      "name": "Wirtz",
+      "club": "LIV",
+      "position": 3,
+      "now_cost": 75,
+      "form": "9.7",
+      "total_points": 60,
+      "minutes": 881,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
@@ -2520,156 +2570,156 @@
       "club": "LIV",
       "position": 3,
       "now_cost": 71,
-      "form": "2.7",
+      "form": "1.7",
       "total_points": 40,
       "minutes": 601,
-      "status": "a",
-      "chance_of_playing_next_round": 100,
-      "news": "",
-      "selected_by_percent": "7.0"
+      "status": "i",
+      "chance_of_playing_next_round": 0,
+      "news": "Calf injury - Expected back 2 Dec",
+      "selected_by_percent": "6.1"
     },
     "368": {
       "name": "Szoboszlai",
       "club": "LIV",
       "position": 3,
       "now_cost": 67,
-      "form": "2.7",
-      "total_points": 29,
-      "minutes": 571,
+      "form": "5.7",
+      "total_points": 38,
+      "minutes": 661,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "13.4"
+      "selected_by_percent": "14.2"
     },
     "379": {
       "name": "Isak",
       "club": "LIV",
       "position": 4,
-      "now_cost": 93,
-      "form": "6.3",
-      "total_points": 61,
-      "minutes": 747,
+      "now_cost": 94,
+      "form": "5.0",
+      "total_points": 66,
+      "minutes": 831,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "26.1"
+      "selected_by_percent": "28.6"
     },
     "387": {
       "name": "O'Reilly",
       "club": "MCI",
       "position": 2,
       "now_cost": 62,
-      "form": "0.7",
-      "total_points": 15,
-      "minutes": 359,
+      "form": "1.3",
+      "total_points": 17,
+      "minutes": 436,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "8.0"
+      "selected_by_percent": "7.9"
     },
     "388": {
       "name": "Guéhi",
       "club": "MCI",
       "position": 2,
       "now_cost": 59,
-      "form": "0.0",
-      "total_points": 37,
-      "minutes": 720,
-      "status": "d",
-      "chance_of_playing_next_round": 75,
-      "news": "Hip injury - 75% chance of playing",
-      "selected_by_percent": "12.6"
+      "form": "0.7",
+      "total_points": 39,
+      "minutes": 810,
+      "status": "a",
+      "chance_of_playing_next_round": 100,
+      "news": "",
+      "selected_by_percent": "12.1"
     },
     "391": {
       "name": "Gvardiol",
       "club": "MCI",
       "position": 2,
-      "now_cost": 56,
+      "now_cost": 55,
       "form": "1.0",
-      "total_points": 44,
-      "minutes": 700,
+      "total_points": 45,
+      "minutes": 712,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "20.6"
+      "selected_by_percent": "18.6"
     },
     "397": {
       "name": "Semenyo",
       "club": "MCI",
       "position": 3,
-      "now_cost": 82,
+      "now_cost": 81,
       "form": "0.0",
       "total_points": 37,
       "minutes": 553,
       "status": "i",
       "chance_of_playing_next_round": 0,
       "news": "Knee injury - Unknown return date",
-      "selected_by_percent": "5.3"
+      "selected_by_percent": "5.2"
     },
     "398": {
       "name": "Foden",
       "club": "MCI",
       "position": 3,
       "now_cost": 68,
-      "form": "1.0",
-      "total_points": 21,
-      "minutes": 361,
+      "form": "1.3",
+      "total_points": 23,
+      "minutes": 430,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "2.1"
+      "selected_by_percent": "1.9"
     },
     "399": {
       "name": "Cherki",
       "club": "MCI",
       "position": 3,
-      "now_cost": 79,
-      "form": "3.3",
-      "total_points": 54,
-      "minutes": 562,
+      "now_cost": 78,
+      "form": "3.7",
+      "total_points": 55,
+      "minutes": 582,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "33.7"
+      "selected_by_percent": "30.1"
     },
     "401": {
       "name": "Marmoush",
       "club": "TOT",
       "position": 4,
       "now_cost": 70,
-      "form": "2.0",
-      "total_points": 24,
-      "minutes": 653,
+      "form": "1.7",
+      "total_points": 25,
+      "minutes": 679,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "2.5"
+      "selected_by_percent": "2.2"
     },
     "411": {
       "name": "Haaland",
       "club": "MCI",
       "position": 4,
-      "now_cost": 158,
-      "form": "4.0",
-      "total_points": 70,
-      "minutes": 889,
+      "now_cost": 157,
+      "form": "2.0",
+      "total_points": 72,
+      "minutes": 979,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "78.9"
+      "selected_by_percent": "75.6"
     },
     "418": {
       "name": "Maguire",
       "club": "MUN",
       "position": 2,
-      "now_cost": 46,
-      "form": "0.0",
-      "total_points": 16,
-      "minutes": 855,
-      "status": "d",
-      "chance_of_playing_next_round": 75,
-      "news": "Back injury - 75% chance of playing",
-      "selected_by_percent": "4.7"
+      "now_cost": 45,
+      "form": "1.0",
+      "total_points": 19,
+      "minutes": 923,
+      "status": "a",
+      "chance_of_playing_next_round": 100,
+      "news": "",
+      "selected_by_percent": "4.5"
     },
     "423": {
       "name": "Shaw",
@@ -2679,36 +2729,36 @@
       "form": "0.0",
       "total_points": 12,
       "minutes": 425,
-      "status": "i",
-      "chance_of_playing_next_round": 0,
-      "news": "Unspecified injury - Unknown return date",
-      "selected_by_percent": "3.1"
+      "status": "a",
+      "chance_of_playing_next_round": 100,
+      "news": "",
+      "selected_by_percent": "2.9"
     },
     "426": {
       "name": "B.Fernandes",
       "club": "MUN",
       "position": 3,
       "now_cost": 116,
-      "form": "4.0",
-      "total_points": 45,
-      "minutes": 810,
+      "form": "4.7",
+      "total_points": 47,
+      "minutes": 900,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "20.0"
+      "selected_by_percent": "20.6"
     },
     "427": {
       "name": "Mbeumo",
       "club": "MUN",
       "position": 3,
       "now_cost": 78,
-      "form": "1.7",
-      "total_points": 46,
-      "minutes": 892,
+      "form": "1.3",
+      "total_points": 47,
+      "minutes": 913,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "18.0"
+      "selected_by_percent": "16.9"
     },
     "428": {
       "name": "Cunha",
@@ -2716,12 +2766,12 @@
       "position": 3,
       "now_cost": 78,
       "form": "2.7",
-      "total_points": 45,
-      "minutes": 703,
+      "total_points": 46,
+      "minutes": 748,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "5.6"
+      "selected_by_percent": "5.5"
     },
     "441": {
       "name": "Obi",
@@ -2741,52 +2791,52 @@
       "club": "NEW",
       "position": 2,
       "now_cost": 50,
-      "form": "0.0",
-      "total_points": 26,
-      "minutes": 630,
+      "form": "0.3",
+      "total_points": 27,
+      "minutes": 631,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "0.7"
+      "selected_by_percent": "0.6"
     },
     "449": {
       "name": "Hall",
       "club": "NEW",
       "position": 2,
       "now_cost": 52,
-      "form": "3.7",
-      "total_points": 46,
-      "minutes": 899,
-      "status": "a",
-      "chance_of_playing_next_round": null,
-      "news": "",
-      "selected_by_percent": "17.1"
+      "form": "2.3",
+      "total_points": 47,
+      "minutes": 989,
+      "status": "d",
+      "chance_of_playing_next_round": 75,
+      "news": "Unspecified injury - 75% chance of playing",
+      "selected_by_percent": "15.2"
     },
     "452": {
       "name": "Bruno G.",
       "club": "ARS",
       "position": 3,
       "now_cost": 67,
-      "form": "2.3",
-      "total_points": 28,
-      "minutes": 386,
+      "form": "2.7",
+      "total_points": 30,
+      "minutes": 455,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "2.1"
+      "selected_by_percent": "2.0"
     },
     "453": {
       "name": "Barnes",
       "club": "NEW",
       "position": 3,
       "now_cost": 60,
-      "form": "4.0",
-      "total_points": 44,
-      "minutes": 886,
+      "form": "3.7",
+      "total_points": 51,
+      "minutes": 976,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "5.7"
+      "selected_by_percent": "5.4"
     },
     "454": {
       "name": "Elanga",
@@ -2794,8 +2844,8 @@
       "position": 3,
       "now_cost": 60,
       "form": "1.3",
-      "total_points": 22,
-      "minutes": 325,
+      "total_points": 23,
+      "minutes": 370,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
@@ -2807,12 +2857,12 @@
       "position": 4,
       "now_cost": 59,
       "form": "1.3",
-      "total_points": 22,
-      "minutes": 707,
+      "total_points": 23,
+      "minutes": 714,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "7.7"
+      "selected_by_percent": "7.2"
     },
     "480": {
       "name": "Gibbs-White",
@@ -2820,25 +2870,25 @@
       "position": 3,
       "now_cost": 78,
       "form": "3.0",
-      "total_points": 39,
-      "minutes": 810,
+      "total_points": 41,
+      "minutes": 900,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
-      "selected_by_percent": "8.9"
+      "selected_by_percent": "8.7"
     },
     "496": {
       "name": "Kinsky",
       "club": "TOT",
       "position": 1,
-      "now_cost": 44,
-      "form": "5.7",
-      "total_points": 40,
-      "minutes": 900,
+      "now_cost": 45,
+      "form": "5.0",
+      "total_points": 47,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "15.9"
+      "selected_by_percent": "16.8"
     },
     "497": {
       "name": "Dubravka",
@@ -2851,68 +2901,29 @@
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "15.0"
-    },
-    "498": {
-      "name": "Senesi",
-      "club": "TOT",
-      "position": 2,
-      "now_cost": 57,
-      "form": "0.0",
-      "total_points": 5,
-      "minutes": 178,
-      "status": "a",
-      "chance_of_playing_next_round": null,
-      "news": "",
-      "selected_by_percent": "2.8"
-    },
-    "552": {
-      "name": "Brobbey",
-      "club": "SUN",
-      "position": 4,
-      "now_cost": 57,
-      "form": "2.7",
-      "total_points": 32,
-      "minutes": 619,
-      "status": "i",
-      "chance_of_playing_next_round": 0,
-      "news": "Muscular injury - Unknown return date",
-      "selected_by_percent": "4.2"
-    },
-    "557": {
-      "name": "Tzolis",
-      "club": "ARS",
-      "position": 3,
-      "now_cost": 61,
-      "form": "2.0",
-      "total_points": 22,
-      "minutes": 513,
-      "status": "a",
-      "chance_of_playing_next_round": 100,
-      "news": "",
-      "selected_by_percent": "3.8"
+      "selected_by_percent": "14.1"
     },
     "565": {
       "name": "M.Sangaré",
       "club": "BRE",
       "position": 3,
-      "now_cost": 54,
-      "form": "2.7",
-      "total_points": 32,
-      "minutes": 613,
+      "now_cost": 53,
+      "form": "1.7",
+      "total_points": 33,
+      "minutes": 621,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "5.6"
+      "selected_by_percent": "5.4"
     },
     "567": {
       "name": "Horníček",
       "club": "NEW",
       "position": 1,
       "now_cost": 50,
-      "form": "4.7",
-      "total_points": 30,
-      "minutes": 900,
+      "form": "2.3",
+      "total_points": 31,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
@@ -2923,48 +2934,48 @@
       "club": "FUL",
       "position": 4,
       "now_cost": 58,
-      "form": "2.0",
-      "total_points": 24,
-      "minutes": 819,
+      "form": "1.7",
+      "total_points": 25,
+      "minutes": 832,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "3.2"
+      "selected_by_percent": "2.9"
     },
     "572": {
       "name": "Tzolakis",
       "club": "HUL",
       "position": 1,
       "now_cost": 47,
-      "form": "3.3",
-      "total_points": 49,
-      "minutes": 900,
+      "form": "5.7",
+      "total_points": 59,
+      "minutes": 990,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "13.3"
+      "selected_by_percent": "14.1"
     },
     "579": {
       "name": "Araujo",
       "club": "LIV",
       "position": 2,
       "now_cost": 55,
-      "form": "7.0",
-      "total_points": 44,
-      "minutes": 663,
+      "form": "5.7",
+      "total_points": 50,
+      "minutes": 747,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "4.7"
+      "selected_by_percent": "5.2"
     },
     "586": {
       "name": "Mendy",
       "club": "HUL",
       "position": 2,
       "now_cost": 41,
-      "form": "2.0",
-      "total_points": 34,
-      "minutes": 519,
+      "form": "3.7",
+      "total_points": 39,
+      "minutes": 609,
       "status": "a",
       "chance_of_playing_next_round": 100,
       "news": "",
@@ -2975,9 +2986,9 @@
       "club": "COV",
       "position": 4,
       "now_cost": 50,
-      "form": "1.3",
-      "total_points": 18,
-      "minutes": 253,
+      "form": "1.0",
+      "total_points": 19,
+      "minutes": 298,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
@@ -2988,13 +2999,13 @@
       "club": "LIV",
       "position": 3,
       "now_cost": 81,
-      "form": "4.0",
-      "total_points": 25,
-      "minutes": 579,
+      "form": "3.7",
+      "total_points": 30,
+      "minutes": 650,
       "status": "a",
       "chance_of_playing_next_round": null,
       "news": "",
-      "selected_by_percent": "4.4"
+      "selected_by_percent": "4.5"
     }
   }
 }
